@@ -5,4 +5,4 @@
  2. Check crawled information
 
 ## Example
-![alt text](https://github.com/yk1028/crawler/app/assets/images/example.png)
+![alt text](https://github.com/yk1028/issue-crawler/blob/master/example.png)
