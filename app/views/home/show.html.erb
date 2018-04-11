@@ -1,0 +1,22 @@
+<form action="/home/crawler">
+  project url: <input type="text" name="url">
+  <input type="submit" value="crawling">
+</form>
+<br>
+<table border="1">
+  <thead>
+  <tr>
+    <td>Issue</td>
+    <td>contents</td>
+  </tr>
+  </thead>
+  <tbody>
+  <%@pr.each do |p|%>
+      <tr>
+        <td><%= p.title %></td>
+        <td><%=p.content%></td>
+      </tr>
+  <%end%>
+  </tbody>
+</table>
+
